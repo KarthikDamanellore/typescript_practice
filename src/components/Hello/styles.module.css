@@ -1,0 +1,25 @@
+.formInputStyles,
+.formButtonStyles {
+    width: 300px;
+    padding: 10px;
+}
+
+.highlightedText,
+.textColor::selection {
+    background-color: orange;
+    color: white;
+}
+
+.hello {
+    background-color: green;
+}
+
+@media print {
+    .formInputStyles,
+    .formButtonStyles {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        background-color: red;
+    }
+}
